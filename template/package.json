@@ -1,0 +1,22 @@
+{
+  "name": "purs-vite-template-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"spago build --watch\" \"vite\"",
+    "compile": "spago build",
+    "build": "spago build && vite build",
+    "preview": "spago build && vite preview"
+  },
+  "author": "@yornaath",
+  "license": "MIT",
+  "dependencies": {
+    "cross-spawn": "^7.0.3"
+  },
+  "devDependencies": {
+    "concurrently": "^8.0.1",
+    "spago": "^0.20.9",
+    "vite": "^4.3.4"
+  }
+}

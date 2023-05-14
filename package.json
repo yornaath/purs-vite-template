@@ -1,13 +1,10 @@
 {
   "name": "purs-vite-template",
-  "version": "1.0.0",
+  "version": "0.0.2",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "dev": "concurrently \"spago build --watch\" \"vite\"",
-    "compile": "spago build",
-    "build": "spago build && vite build",
-    "preview": "spago build && vite preview"
+  "bin": {
+    "create-my-template": "./index.js"
   },
   "author": "@yornaath",
   "license": "MIT",
