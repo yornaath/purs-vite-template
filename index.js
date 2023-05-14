@@ -45,6 +45,7 @@ fs.writeFileSync(
 // called `cross-spawn` for cross-platform support.
 // (Node has issues spawning child processes in Windows).
 spawn.sync('npm', ['install'], { cwd: projectDir, stdio: 'inherit' });
+spawn.sync('npm', ['run', 'compile'], { cwd: projectDir, stdio: 'inherit' });
 
 console.log('Success! Your new project is ready.');
 console.log(`Created ${projectName} at ${projectDir}`);
