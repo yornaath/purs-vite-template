@@ -8,10 +8,7 @@
   },
   "author": "@yornaath",
   "license": "MIT",
-  "dependencies": {},
-  "devDependencies": {
-    "concurrently": "^8.0.1",
-    "vite": "^4.3.4",
-    "spago": "^0.20.9"
+  "dependencies": {
+    "cross-spawn": "^7.0.3"
   }
 }

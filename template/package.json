@@ -11,9 +11,6 @@
   },
   "author": "@yornaath",
   "license": "MIT",
-  "dependencies": {
-    "cross-spawn": "^7.0.3"
-  },
   "devDependencies": {
     "concurrently": "^8.0.1",
     "spago": "^0.20.9",
